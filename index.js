@@ -20,7 +20,7 @@ const promptUser = () => {
         },
         {
             type:'input',
-            name:'Project title',
+            name:'projectTitle',
             message:'What is the project title?'
         },
         {

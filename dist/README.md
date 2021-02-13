@@ -1,36 +1,33 @@
 
-  <h1 align='center'>undefined</h1>
+  <h1>gg</h1>
   
   ## Description 
-    generates dynamic readme
+    g
   
   ## Table of Contents
-    - [Description](#Desrcription)
-    - [Installation](#Installation)
-    - [Usage](#Usage)  
-    - [Credits](#Credits)
-    - [License](#License)
-    - [Badges](#Badges)
-    - [Features](#Features)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
 
   ## Installation
-    install node, then install inquirer and package.json
+    g
 
   ## Usage
-    screeshot
+    g
   
   ## Credits
       
 
   ## License
-    This application is covered by MIT license.
+    This application is covered by GNU AGPL license.
 
   ## Badges
 
   ## Features
-    node.js/JavaScript
+    g
 
   ## Contributing
 

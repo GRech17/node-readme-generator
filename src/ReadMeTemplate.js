@@ -1,22 +1,18 @@
 // Creates a function to generate template for README
 function ReadMeTemplate(data) {
   return `
-  <style>
-  <h1 align='center'>${data.projectTitle}</h1>
+  <h1>${data.projectTitle}</h1>
   
   ## Description 
     ${data.description}
   
   ## Table of Contents
-    - [Description](#Desrcription)
-    - [Installation](#Installation)
-    - [Usage](#Usage)  
-    - [Credits](#Credits)
-    - [License](#License)
-    - [Badges](#Badges)
-    - [Features](#Features)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
 
   ## Installation
     ${data.installation}
