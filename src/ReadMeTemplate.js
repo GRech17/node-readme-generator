@@ -1,7 +1,6 @@
 // Creates a function to generate template for README
 function ReadMeTemplate(data) {
   return `
-  <style>
   <h1 align='center'>${data.projectTitle}</h1>
   
   ## Description 

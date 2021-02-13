@@ -1,9 +1,8 @@
 
-  <style>
-  <h1 align='center'>g</h1>
+  <h1 align='center'></h1>
   
   ## Description 
-    g
+    
   
   ## Table of Contents
   - [Description](#description)
@@ -14,10 +13,10 @@
   - [Tests](#tests)
 
   ## Installation
-    g
+    
 
   ## Usage
-    g
+    
   
   ## Credits
       
@@ -28,7 +27,7 @@
   ## Badges
 
   ## Features
-    g
+    
 
   ## Contributing
 
