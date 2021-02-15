@@ -3,7 +3,7 @@
 
 
 ### Screenshot
-
+<img src = "demo/demo.gif" alt = "generator preview">
 
 ### Link to Demo
 https://drive.google.com/file/d/1zDcnmO8Lpp_u4JjIjc_mEbYuVT9fWe-3/view
