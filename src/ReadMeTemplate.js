@@ -10,9 +10,10 @@ function ReadMeTemplate(data) {
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Credits](#credits)
   - [License](#license)
+  - [Features](#features)
   - [Contributing](#contributing)
-  - [Tests](#tests)
 
   ## Installation
     ${data.installation}
@@ -26,16 +27,11 @@ function ReadMeTemplate(data) {
   ## License
     This application is covered by ${data.license} license.
 
-  ## Badges
-
   ## Features
     ${data.features}
 
   ## Contributing
-
-  ## Tests
-
-
+    ${data.contributing}
 `;
 }
 

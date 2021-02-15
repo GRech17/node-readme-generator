@@ -1,5 +1,5 @@
 
-  <h1 align='center'>TITLE IS SMD</h1>
+  <h1 align='center'></h1>
   
   ## Description 
     
@@ -8,9 +8,10 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Credits](#credits)
   - [License](#license)
+  - [Features](#features)
   - [Contributing](#contributing)
-  - [Tests](#tests)
 
   ## Installation
     
@@ -24,13 +25,8 @@
   ## License
     This application is covered by GNU AGPL license.
 
-  ## Badges
-
   ## Features
     
 
   ## Contributing
-
-  ## Tests
-
-
+    

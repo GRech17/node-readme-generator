@@ -3,8 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 
-// Links to README template
-const ReadMeGenerator = require('./src/ReadMeTemplate');
+// Links questions to README template
 const ReadMeTemplate = require("./src/ReadMeTemplate");
 
 // Creates a function to write README file
@@ -41,7 +40,7 @@ const promptUser = () => {
         {
             type:'input',
             name:'credits',
-            message:'List your collaborators, if any. If none, leave blank:'
+            message:'List your collaborators, if any. If none, skip or type "N/A":'
         },
         {
             type:'list',
@@ -53,11 +52,14 @@ const promptUser = () => {
             type:'input',
             name:'features',
             message:'List project features/languages:'
-        }
+        },
+        {
+            type:'input',
+            name:'contributing',
+            message:'If you would like others to contribute to your app/package, add guidelines for how to do so. If not, skip or type "N/A":'
+        },
     ])
 };
-
-
 
 // Create a function to initialize app
 async function init() {
@@ -65,7 +67,7 @@ async function init() {
         const data = await promptUser();
         const createContent = ReadMeTemplate(data);
 
-        await createFile('./dist/README.md', createContent);
+        await createFile('./sample/README.md', createContent);
         console.log('Successfully created README.md');
     } catch(err) {
         console.log(err);
