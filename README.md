@@ -2,8 +2,11 @@
 
 
 
-### Link to Demo
+### Screenshot
 
+
+### Link to Demo
+https://drive.google.com/file/d/1zDcnmO8Lpp_u4JjIjc_mEbYuVT9fWe-3/view
 
 ### What User Asked
 ```
@@ -33,5 +36,5 @@ THEN I am taken to the corresponding section of the README
 
 ### Application Contents/Description
 ``
-
+Given passed down starter code, I've refactored a simple README.md Generator application that allows a user to place their data into a README.md template. I have done this by creating multiple JavaScript files that are linked to each other mainly using node.js and using inquirer and util packages to dynamically create the template.
 ``
